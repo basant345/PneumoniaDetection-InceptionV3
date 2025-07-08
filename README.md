@@ -68,6 +68,17 @@ I used the following performance metrics to evaluate the model:
 
 ---
 
+##  Hyperparameter
+
+-**Learning Rate**: 1e-4 – Fine-tunes the pre-trained model slowly to avoid losing useful features.
+-**Batch Size**: 32 – Balanced choice for stable training and efficient memory usage.
+-**Epochs**: 20 – Capped training length with EarlyStopping to avoid overfitting.
+-**Dropout Rate**: 0.5 – Helps prevent overfitting by randomly dropping neurons.
+-**Image Size**: 299x299 – Required input size for InceptionV3.
+-**Optimizer**: Adam – Adaptive and efficient for transfer learning tasks.
+
+---
+
 ##  Results
 
 | Metric     | overall |
