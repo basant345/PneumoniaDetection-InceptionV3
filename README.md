@@ -1,6 +1,6 @@
 # PneumoniaDetection-InceptionV3
 
-This project aims to detect **Pneumonia** in chest X-ray images using a deep learning approach. We used **InceptionV3**, a pre-trained model, and applied **transfer learning** on the **PneumoniaMNIST** dataset.
+This project aims to detect **Pneumonia** in chest X-ray images using a deep learning approach. I used **InceptionV3**, a pre-trained model, and applied **transfer learning** on the **PneumoniaMNIST** dataset.
 
 ---
 
@@ -58,7 +58,7 @@ I used several deep learning techniques to improve the model’s performance and
 
 ##  Evaluation Metrics
 
-We used the following performance metrics to evaluate the model:
+I used the following performance metrics to evaluate the model:
 
 - **Accuracy**: Overall correct predictions
 - **Precision**: How many predicted pneumonia cases were actually pneumonia
@@ -68,12 +68,11 @@ We used the following performance metrics to evaluate the model:
 
 ---
 
-##  Sample Results
+##  Results
 
-| Metric     | Value (example) |
+| Metric     | overall |
 |------------|-----------------|
-| Accuracy   | 92.3%           |
 | F1 Score   | 0.89            |
-| Precision  | 0.91            |
+| Precision  | 0.83            |
 | AUC Score  | 0.94            |
 
