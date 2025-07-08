@@ -45,8 +45,8 @@ I used several deep learning techniques to improve the model’s performance and
 
 ###  Handling Class Imbalance
 
-- Used `class_weight` from `sklearn` to give higher importance to the minority class (Pneumonia).
-- This prevents the model from being biased toward the majority class (Normal).
+- Used `class_weight` from `sklearn` to give higher importance to the minority class (Normal).
+- This prevents the model from being biased toward the majority class (Pneumonia).
 
 ###  Overfitting Prevention
 
